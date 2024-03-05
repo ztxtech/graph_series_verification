@@ -1,4 +1,0 @@
-nuitka
-networkx
-numpy
-matplotlib

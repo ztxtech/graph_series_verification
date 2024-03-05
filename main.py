@@ -1,7 +1,10 @@
 from copy import deepcopy
 import time
+
+import matplotlib
 import matplotlib.pyplot as plt
 import networkx as nx
+
 import numpy as np
 
 
@@ -67,13 +70,12 @@ class GraphSeries:
             "width": 3,
             "with_labels": True
         }
+        matplotlib.use('TkAgg')
+        plt.figure(figsize=(5, 5), dpi=300)
         nx.draw(self.graph, **options)
-        plt.show(figsize=(10, 10), dpi=500)
+        plt.show()
 
 if __name__ == '__main__':
-    
-
-    
 
 
     print("姓名：展天翔 (ztxtech)")
