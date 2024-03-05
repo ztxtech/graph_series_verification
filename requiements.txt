@@ -1,4 +1,4 @@
-pyinstaller
+nuitka
 networkx
 numpy
 matplotlib
