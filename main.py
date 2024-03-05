@@ -63,15 +63,13 @@ class GraphSeries:
     def show(self):
         options = {
             "font_size": 10,
-            "node_size": 1600,
+            "node_size": 160,
             "node_color": 'orange',
             "edgecolors": "black",
-            "linewidths": 3,
-            "width": 3,
-            "with_labels": True
+            "with_labels": True,
+            "pos": nx.circular_layout(self.graph)
         }
         matplotlib.use('TkAgg')
-        plt.figure(figsize=(5, 5), dpi=300)
         nx.draw(self.graph, **options)
         plt.show()
 
