@@ -79,7 +79,7 @@ if __name__ == '__main__':
     print("姓名：展天翔 (ztxtech)")
     print("学号：202321210214")
     print("日期：2024.03.04")
-    print("开源代码地址: ")
+    print("开源代码地址: https://github.com/ztxtech/graph_series_verification")
     print("______________________________________________________________")
     series = input("o(〃^▽^〃)o 请输入一个整数序列: ").split(',')
         
