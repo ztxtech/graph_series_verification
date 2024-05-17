@@ -76,8 +76,8 @@ class GraphSeries:
 if __name__ == '__main__':
 
 
-    print("姓名：展天翔 (ztxtech)")
-    print("学号：202321210214")
+    print("姓名：ztxtech")
+    print("学号：XXXXXXXXXXXXXXXX")
     print("日期：2024.03.04")
     print("开源代码地址: https://github.com/ztxtech/graph_series_verification")
     print("______________________________________________________________")

@@ -2,6 +2,10 @@
 
 ## 作业1 2024/03/01
 
+- 作者: [![GitHub](https://img.shields.io/badge/ztxtech-%23121011?logo=github&logoColor=white)](https://github.com/ztxtech)
+- 开源的repo版本: [![GitHub](https://img.shields.io/badge/ztxtech-graph_series_verification-%23121011?logo=github&logoColor=white)](https://github.com/ztxtech/graph_series_verification)
+- 浏览量: [![Visits Badge](https://badges.pufler.dev/visits/ztxtech/graph_series_verification)](https://github.com/ztxtech/graph_series_verification)
+
 ## 要求
 制作一个GUI程序满足：
 输入一个序列，判断：
